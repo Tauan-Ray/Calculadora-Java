@@ -12,8 +12,8 @@ public class Calculadora {
         n1 = ent.nextDouble();
         System.out.println("Diga o segundo número: ");
         n2 = ent.nextDouble();
+        System.out.println("=====================================");
         System.out.println(n1 + n2);
-        System.out.println("");
     }
 
     public void sub(){
@@ -21,8 +21,8 @@ public class Calculadora {
         n1 = ent.nextDouble();
         System.out.println("Diga o segundo número: ");
         n2 = ent.nextDouble();
+        System.out.println("=====================================");
         System.out.println(n1 - n2);
-        System.out.println("");
     }
 
     public void mult(){
@@ -30,8 +30,8 @@ public class Calculadora {
         n1 = ent.nextDouble();
         System.out.println("Diga o segundo número: ");
         n2 = ent.nextDouble();
+        System.out.println("=====================================");
         System.out.println(n1 * n2);
-        System.out.println("");
     }
 
     public void div(){
@@ -39,8 +39,8 @@ public class Calculadora {
         n1 = ent.nextDouble();
         System.out.println("Diga o segundo número: ");
         n2 = ent.nextDouble();
+        System.out.println("=====================================");
         System.out.println(n1 / n2);
-        System.out.println("");
     }
 
     public void pot(){
@@ -48,15 +48,15 @@ public class Calculadora {
         n1 = ent.nextDouble();
         System.out.println("Diga o expoente: ");
         n2 = ent.nextDouble();
+        System.out.println("=====================================");
         System.out.println(Math.pow(n1, n2));
-        System.out.println("");
     }
 
     public void raiz(){
         System.out.println("Diga o radical: ");
         n1 = ent.nextDouble();
+        System.out.println("=====================================");
         System.out.println(Math.sqrt(n1));
-        System.out.println("");
     }
 
     public void menu(){
